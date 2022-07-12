@@ -137,14 +137,12 @@ table{
     color: var(--white);
 }
 
-
-
 th {
     padding: 20px 0;
     font-style: italic;
 }
 
-.gris{
+.bg-masoscuro{
     background-color:  rgb(13 36 56 / 43%);
 }
 .negrita{
