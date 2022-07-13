@@ -179,7 +179,6 @@ h2{
     position: relative;
     overflow: hidden;
 }
-
 .oculto{
     position: absolute;
     top: 0;
@@ -191,7 +190,6 @@ h2{
     text-align: center;
    
 }
-
 .oculto h4{
     position: relative;
     top: 30%;
