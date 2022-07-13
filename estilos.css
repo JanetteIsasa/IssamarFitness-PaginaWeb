@@ -219,7 +219,7 @@ h2{
 }
 
 
-@media (max-width:1300px) {
+@media (max-width:1215px) {
     .margen-abajo-tablet{
         margin-bottom: 10rem;
     }
@@ -228,7 +228,7 @@ h2{
     }
 }
 
-@media (max-width:1279px) {
+@media (max-width:1024px) {
     .tarjeta{
         width: 22rem;
     }
