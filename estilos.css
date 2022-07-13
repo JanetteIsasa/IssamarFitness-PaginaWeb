@@ -67,7 +67,7 @@ header ul li a:hover{
 
 .titular{
     text-align: left;
-    padding-top: 20rem;
+    padding-top: 25rem;
     color: #fff;
 
 }
@@ -242,7 +242,7 @@ h2{
 
 @media (min-width:810px) {
     .titular{
-        padding-top: 30rem;
+        padding-top: 25rem;
        
     }
     .contenedor{
