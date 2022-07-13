@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat';
     --tw-bg-opacity: 1;
     background-color: rgb(13 36 56/var(--tw-bg-opacity));
+    color: var(--white);
 }
 
 
@@ -83,14 +84,14 @@ h1 {
 
 .contenedor-tarjetas {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .tarjeta {
     text-align: center;
     box-shadow: -1px 0px 5px #0000001f;
-    width: 25rem;
-    margin: 20px;
+    width: 23rem;
     margin-top: -9rem;
     background-color: #1e3851;
   
@@ -101,6 +102,7 @@ h1 {
     border-radius: 1rem 1rem 0 0;
     height: 15rem;
 }
+
 
 .tarjeta p{
     font-size: var(--md);
@@ -220,10 +222,60 @@ h2{
 }
 
 
-@media (max-width:800px){
+@media (min-width:900px) {
+    .titular{
+        padding-top: 15rem;
+    }
+    .tarjeta{
+        margin-bottom: 11rem;
+        margin-top: -7rem;
+        
+    }
+    #tarjeta{
+        margin-top: 0;
+    }
 
+    .h2-clases{
+        margin-top: 0;
+    }
+
+
+}
+
+@media (min-width:810px) {
+    .titular{
+        padding-top: 30rem;
+       
+    }
+    .contenedor{
+        padding-bottom: 0;
+    }
+    .tarjeta{
+        margin-bottom: 11rem;
+        width: 22rem;
+    }
+
+    #tarjeta{
+        margin-top: -5rem;
+    }
+
+    .h2-clases{
+        margin-top: 0;
+    }
+   
+}
+
+@media (max-width:801px){
+
+    .contenedor{
+        padding-bottom: 0;
+    }
     .menu{
         padding-top: 10px;
+    }
+
+    header{
+        padding: 0.5rem 1rem;
     }
 
     header ul{
@@ -251,7 +303,8 @@ h2{
 
     h2{ 
         font-size: 40px;
-        padding: 20px;
+        margin-bottom: 0;
+        
     }
 
     .contenedor-tarjetas, #galeria{
@@ -261,9 +314,11 @@ h2{
     .tarjeta{
         width: 100%;
         margin: 0;
-        margin-top: 10px;
+        margin-top: -9rem;
+        margin-bottom: 11rem;
          
     }
+
 
     #tarjetas {
         margin-bottom: 0;
@@ -273,13 +328,17 @@ h2{
         display: none;
     }
 
+    #classes{
+        display: none;
+    }
+
     #classes-mobile{
         display: block;
         text-align: center;
     }
 
     #classes-mobile .negrita{
-        background: #f6f6f6;
+        background-color: #1e3851;
         padding: 5px;
     }
 
