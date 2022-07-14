@@ -219,18 +219,10 @@ h2{
 }
 
 
-@media (max-width:1215px) {
-    .margen-abajo-tablet{
-        margin-bottom: 10rem;
-    }
-    .tarjeta{
-        height: max-content;
-    }
-}
-
-@media (max-width:1024px) {
+@media (max-width:1600px) {
     .tarjeta{
         width: 22rem;
+        height: max-content;
     }
     .margen-abajo-tablet{
         margin-bottom: 10rem;
